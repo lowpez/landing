@@ -1,0 +1,102 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap');
+
+/* Utilities */
+@import url("components/heros.css");
+@import url("components/cards.css");
+@import url("components/buttons.css");
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+body {
+  margin: 0;
+  color: #888;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+p{
+
+}
+h2{
+  color: black;
+  font-size: 1.8em;
+}
+h4{
+  color: black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #111;
+}
+
+.footer a {
+  font-size: 30px;
+  color:  #1EDD88;
+}
+
+.footer p {
+  color: #6B6C6C;
+}
+
+.footer .fas {
+  color: #BF0F12;
+}
+
+@media (min-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 900px;
+  }
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 600px;
+    padding: 0.8em;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    max-width: 100%;
+  }
+  .cards {
+    align-items: center;
+    flex-direction:column;
+  }
+}
